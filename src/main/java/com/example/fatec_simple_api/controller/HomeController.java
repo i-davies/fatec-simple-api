@@ -12,4 +12,9 @@ public class HomeController {
     public String home(){
         return "Bem-vindo a primeira aula de IEC da FATEC!";
     }
+
+    @GetMapping("/preview")
+    public String preview(){
+        return "Essa alteração somente pode ser visualizada no PR Preview!";
+    }
 }
