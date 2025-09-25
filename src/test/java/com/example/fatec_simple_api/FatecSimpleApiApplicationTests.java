@@ -32,7 +32,7 @@ class FatecSimpleApiApplicationTests {
     @Test
     void deveRetornarListaDeAlunosComoStringJson() throws Exception {
         // A lista de strings é convertida pelo Spring para um array JSON
-        String jsonEsperado = "["Rutoquinha da silva", "Giovaninha albanes", "Amanda Costinha"]";
+        String jsonEsperado = "[\"Rutoquinha da silva",\"Giovaninha albanes",\"Amanda Costinha"]";
 
         mockMvc.perform(get("/alunos"))
                 // Espera que o status da resposta seja 200 OK
