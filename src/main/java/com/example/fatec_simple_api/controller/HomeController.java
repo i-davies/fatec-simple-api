@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home(){
-        return "Bem-vindo a primeira aula de IEC da FATEC!";
+        return "Bem-vindo a primeira aula de IEC da FATEC! E um 'OI' pra Isa <3!";
     }
 }
