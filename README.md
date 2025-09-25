@@ -38,6 +38,7 @@ Para contribuir, siga estas etapas:
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Recomendação (opcional)
+## Recomendação (opcional)
 
 Para uma melhor semântica nos commits, recomendamos repositório sobre [padrões de commits](https://github.com/iuricode/padroes-de-commits). Assim ficará mais fácil para avaliar seu pull request.
 
