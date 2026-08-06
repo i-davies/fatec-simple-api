@@ -12,7 +12,7 @@ COPY pom.xml .
 COPY src ./src
 
 # Executa o build do Maven. O -DskipTests pula a execução dos testes para acelerar o build.
-RUN mvn clean package
+RUN mvn clean package -DskipTests
 
 
 # Estágio 2: Execução da aplicação
