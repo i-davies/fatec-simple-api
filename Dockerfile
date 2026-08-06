@@ -17,7 +17,7 @@ RUN mvn clean package
 
 # Estágio 2: Execução da aplicação
 # Usamos uma imagem base slim do OpenJDK 21, que é menor e mais segura
-FROM openjdk:21-slim
+FROM eclipse-temurin:21-jre-jammy
 
 # Define o diretório de trabalho
 WORKDIR /app
